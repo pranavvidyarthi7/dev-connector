@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>myProfile</title>
+    
+     <!--linking aos css file--> 
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+     <!--font awesome kit code-->
+     <script src="https://kit.fontawesome.com/7886940eea.js" crossorigin="anonymous"></script>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body >
+    <!--navbar-->
+    <nav class="black darken-2" >
+        <div class="navbar-fixed">
+          <div class="nav-wrapper">
+            <a href="#!" class="brand-logo center" id="heading"><i class="material-icons">polymer</i>  DevConnector</a>
+            
+            <a href="#" data-activates="slide-out" class="button-collapse show-on-large right"><i class="material-icons">menu</i></a>
+          </div>
+        </div>
+        <!--sidenav-->
+        <ul id="slide-out" class="side-nav ">  
+            <li>
+              <div class=user-view>
+                    <div class="background">
+                        <img src="img/light-1282314_1920.jpg" class="responsive-img center">
+                    </div>
+                    <a href="#!user"><img class="circle " src="img/girl-919048_1920.jpg"></a>
+                    <a href="#!name"><span class="black-text name">John Doe</span></a>
+                    <a href="#!email"><span class="black-text email">jdandturk@gmail.com</span></a>
+              </div>
+              
+          </li>
+          
+            <li><a href="dashboard.html " class="waves-effect" ><i class="material-icons">apps</i>Dashboard</a></li>
+            <li><div class="divider black-text"></div></li>
+            <li><a href="developers.html " class="waves-effect" ><i class="material-icons">people</i>Developers</a></li>
+            <li><div class="divider "></div></li>
+            <li><a class="waves-effect" href="post.html"><i class="material-icons">create</i>Post</a></li>
+            <li><div class="divider "></div></li>
+            <li><a class="waves-effect" href="contactus.html"><i class="material-icons">call</i>ContactUs</a></li>
+            <li><div class="divider "></div></li>
+            
+            <li><a class="header">Account Controls</a></li>            
+            <li><a class="waves-effect" href="profile.html"><i class="material-icons">edit</i>Edit Profile</a></li>
+            <li><div class="divider "></div></li>
+            
+            <li><a class="waves-effect" href="index.html"><i class="material-icons">arrow_back</i>Logout</a></li>
+            <li><div class="divider "></div></li>
+            
+          </ul>
+        
+      </nav>
+      <!--page..-->
+      <div class="row">
+        <div class="col s12 l3">
+          <div class="mypro_img">
+            <img src="img/person3.jpg" class="responsive-img" alt="">
+
+          </div>
+          
+          <div>
+            <span class="grey-text">WORK <div class="divider"></div></span>
+            <h5 style="font-weight: 500;">Spotify New York</h5>
+            <span class="grey-text">170 William Street <br>New York,NY 121002</span>
+            <h5 style="font-weight: 500;">Metropolitan Museum</h5>
+            <span class="grey-text">S25 E 68th street <br>New York,NY 121002 <br><br></span>
+            <span class="grey-text">SKILLS <div class="divider"></div></span>
+            <h6 style="font-weight: 500;">Branding</h6>
+            <h6 style="font-weight: 500;">Web Design</h6>
+            <h6 style="font-weight: 500;">App Development</h6>
+          </div>
+        </div>
+        <div class="col s12 l9"  id="myprofile_seccol">
+          <div>
+            <h4 style="font-weight: 500;">Jeremy Rose    <a href="#"><h6 class="right grey-text" style="font-weight: 500;"><i class="fas fa-bookmark"></i>  Bookmark</h6></a></h4>
+            <a href="#"><h6 class="grey-text"><i class="fas fa-map-marker-alt"></i>  New York,NY</h6></a>
+            <h6 class="blue-text" style="font-weight: 600;">Product Designer</h6> 
+          </div>
+          <div><br>
+            <span class="grey-text">RANKINGS</span>
+            <div>
+              <h5 style="font-weight: 600;">8.6    <i class="fas fa-star blue-text"></i><i class="fas fa-star blue-text"></i><i class="fas fa-star blue-text"></i><i class="far fa-star blue-text"></i><i class="far fa-star blue-text"></i></h5>
+            </div>
+            <div style="white-space: nowrap;">
+              <br><br>
+              <span><i class="tiny material-icons">chat_bubble</i>  Send message &nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="btn flat white grey-text">Report User</a> </span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12">
+              <ul class="tabs blue-text">
+                <li class="tab col s3"><a class="active" href="#test1"><i class="fas fa-graduation-cap"></i>Education</a></li>
+                <li class="tab col s3"><a  href="#test2">Experience</a></li>
+                <li class="tab col s3"><a class="active" href="#test3"><i class="fas fa-user"></i>About</a></li>
+              </ul>
+              <div id="test1">
+                <span><h6 style="padding-top: 10px; font-weight: bolder;">Degree:     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; btech</h6></span>
+                <span><h6 style="padding-top: 10px; font-weight: bolder;">School:     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Modern Vidya Niketan</h6></span>
+                <span><h6 style="padding-top: 10px; font-weight: bolder;">Field of Study:     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Engineering</h6></span>
+              </div>
+              <div id="test2">
+                <span><h6 style="padding-top: 10px; font-weight: bolder;">Job Title:     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Product Designer</h6></span>
+                <span><h6 style="padding-top: 10px; font-weight: bolder;">Company:     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; amazon</h6></span>
+                <span><h6 style="padding-top: 10px; font-weight: bolder;">Location:     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Banglore</h6></span>
+                <span><h6 style="padding-top: 10px; font-weight: bolder;">From Date:     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 21-03-2002</h6></span>
+                <span><h6 style="padding-top: 10px; font-weight: bolder;">To Date:     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 24-08-2018</h6></span>
+
+              </div>
+              <div id="test3">
+                <span><h6 style="padding-top: 10px; font-weight: bolder;">Professional Status:     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Product Designer</h6></span>
+                <span><h6 style="padding-top: 10px; font-weight: bolder;">Company:     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Amazon</h6></span>
+                <span><h6 style="padding-top: 10px; font-weight: bolder;">Website:     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; www.amazon.in</h6></span>
+                <span><h6 style="padding-top: 10px; font-weight: bolder;">Location:     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Banglore</h6></span>
+                <span><h6 style="padding-top: 10px; font-weight: bolder;">Skills:     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HTML,CSS...</h6></span>
+                <span><h6 style="padding-top: 10px; font-weight: bolder;">Github Username:     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;anm0l555</h6></span>
+              </div>
+          </div>
+        </div>
+      </div>
+
+    
+      
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <!--linking js file-->
+    <script src="js/script.js"></script>
+    <!-- linking aos js file-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('.button-collapse').sideNav();
+        //init tab
+        $('ul.tabs').tabs();
+      });
+    </script>
+    
+  </body>
+</html>
+

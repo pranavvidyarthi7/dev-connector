@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>dashboard</title>
+    
+     <!--linking aos css file--> 
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+     <!--font awesome kit code-->
+     <script src="https://kit.fontawesome.com/7886940eea.js" crossorigin="anonymous"></script>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body id="body2">
+    <!--navbar-->
+      <nav class="black darken-2" >
+        <div class="navbar-fixed">
+          <div class="nav-wrapper">
+            <a href="#!" class="brand-logo center" id="heading"><i class="material-icons">polymer</i>  DevConnector</a>
+            <ul class="right">
+                <li><a href="#!"><i class="far fa-comment"></i></a></li>
+                <li><a href="#!"><i class="far fa-envelope"></i></a></li>
+                <li><a href="#!"><i class="far fa-bell"></i></a></li>
+                <li><a href="#!"><i class="fas fa-cog"></i></a></li>
+            </ul>
+            <a href="#" data-activates="slide-out" class="button-collapse show-on-large left"><i class="material-icons">menu</i></a>
+          </div>
+        </div>
+        <!--sidenav-->
+        <ul id="slide-out" class="side-nav ">  
+            <li>
+              <div class=user-view>
+                    <div class="background">
+                        <img src="img/light-1282314_1920.jpg" class="responsive-img center">
+                    </div>
+                    <a href="#!user"><img class="circle " src="img/girl-919048_1920.jpg"></a>
+                    <a href="#!name"><span class="black-text name">John Doe</span></a>
+                    <a href="#!email"><span class="black-text email">jdandturk@gmail.com</span></a>
+              </div>
+              
+          </li>
+          
+            
+            <li><a href="developers.html " class="waves-effect" ><i class="material-icons">people</i>Developers</a></li>
+            <li><div class="divider "></div></li>
+            <li><a class="waves-effect" href="post.html"><i class="material-icons">create</i>Post</a></li>
+            <li><div class="divider "></div></li>
+            <li><a class="waves-effect" href="myprofile.html"><i class="material-icons">create</i>My Profile</a></li>
+            <li><div class="divider "></div></li>
+            <li><a class="waves-effect" href="contactus.html"><i class="material-icons">call</i>ContactUs</a></li>
+            <li><div class="divider "></div></li>
+
+            <li><a class="header">Account Controls</a></li>            
+            <li><a class="waves-effect" href="profile.html"><i class="material-icons">edit</i>Edit Profile</a></li>
+            <li><div class="divider "></div></li>
+            <li><a class="waves-effect" href="index.html"><i class="material-icons">arrow_back</i>Logout</a></li>
+            <li><div class="divider "></div></li>
+            
+          </ul>
+        
+      </nav>
+
+      <!--page-->
+
+      
+      <!--firstrow-->
+      <div class="row">
+          <div class="col s12 m6 l3">
+              <div class="card" id="dashboardcard1" data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine">
+                  <h6 class="grey-text">FACEBOOK</h6>
+                  <div class="row">
+                  <div class="col s9 m9 l9">
+                    <h5><span>4500k</span></h5>
+                  </div>    
+                  <div class="col s3 m3 l3 dashcol"><i class="fab fa-facebook-f small blue-text"></i></div>
+                  </div>
+              </div>
+          </div>
+          <div class="col s12 m6 l3">
+            <div class="card" id="dashboardcard1"  data-aos="flip-right"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+                <h6 class="grey-text">WINDOWS</h6>
+                <div class="row">
+                <div class="col s9 m9 l9">
+                  <h5><span>2500k</span></h5>
+                </div>    
+                <div class="col s3 m3 l3 dashcol"><i class="fab fa-windows small green-text"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l3">
+            <div class="card" id="dashboardcard1" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+                <h6 class="grey-text">GOOGLE</h6>
+                <div class="row">
+                <div class="col s9 m9 l9">
+                  <h5><span>33424k</span></h5>
+                </div>    
+                <div class="col s3 m3 l3 dashcol"><i class="fab fa-google-plus-g small red-text"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m6 l3">
+            <div class="card" id="dashboardcard1" data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="500">
+                <h6 class="grey-text">APPLE</h6>
+                <div class="row">
+                <div class="col s9 m9 l9">
+                  <h5><span>1200k</span></h5>
+                </div>    
+                <div class="col s3 m3 l3 dashcol"><i class="fab fa-apple small"></i></div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!--secondrow-->
+      <div class="row">
+          
+          <div class="col s12 m8 l8">
+              <div class="card" id="dashboardcard3" data-aos="fade-down-left">
+                  
+                    <div class="card-title"><span><h5 >GOALS <ul class="right"><li> <a href="#" class="btn white black-text">EXPORT</a></li></ul></h5></span></div>
+                  <table class="highlight  responsive-table center">
+                    <thead>
+                      <tr>
+                          <th>GOAL</th> 
+                          <th>STATUS</th>
+                          <th>DUE DATE</th>
+                          <th>PROGRESS</th>
+                          
+                      </tr>
+                    </thead>
+            
+                    <tbody>
+                      <tr>
+                        <td>Alvin</td>
+                        <td><i class="tiny material-icons red-text">brightness_1</i> Eclair</td>
+                        <td>$0.87</td>
+                        <td>25%</td>
+                        <td><i class="material-icons">more_vert</i></td>
+                      </tr>
+                      <tr>
+                        <td>Alan</td>
+                        <td><i class="tiny material-icons yellow-text">brightness_1</i>Jellybean</td>
+                        <td>$3.76</td>
+                        <td>25%</td>
+                        <td><i class="material-icons">more_vert</i></td>
+                      </tr>
+                      <tr>
+                        <td>Jonathan</td>
+                        <td><i class="tiny material-icons green-text">brightness_1</i>Lollipop</td>
+                        <td>$7.00</td>
+                        <td>25%</td>
+                        <td><i class="material-icons">more_vert</i></td>
+                      </tr>
+                    </tbody>
+                  </table>
+              </div>
+          </div>
+          <div class="col s12 m4 l4">
+            <div class="card" id="dashboardcard2" data-aos="fade-down-right">
+                <div class="card-title"><span ><h5>PROJECTS</h5></span></div>
+                <ul class="collapsible" data-collapsible="accordion">
+                    <li>
+                      <div class="collapsible-header"><img src="img/girl-919048_1920.jpg" alt="" class="circle dashimg"> <span><h5>HomepageRedesign</h5><h6 class="grey-text">(updated 4hrs ago)</h6></span></div>
+                      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><img src="img/portrait-3052641_1920.jpg" alt="" class="circle dashimg"> <span><h5>Travel & Time</h5><h6 class="grey-text">(updated 6hrs ago)</h6></span></div>
+                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    </li>
+                    
+                  </ul>
+            </div>
+      </div>
+      </div>
+
+      <!--thirdRow-->
+      <div class="row">
+          <div class="col s12 m6 l3">
+              <div class="card" id="dashboardcard6"  data-aos="zoom-in-right">
+                <div class="card-title "><h5>ACTIVITY</h5>
+                </div>
+                <ul class="collection ScrollStyle" id="scrollbar" >
+                    <li class="collection-item avatar">
+                      <i class="material-icons circle red">call</i>
+                      <span class="title">Client meeting</span>
+                      <p class="grey-text">Meeting at 10:00AM
+                      </p>
+                      
+                    </li>
+                    <li class="collection-item avatar">
+                      <i class="material-icons circle green">folder</i>
+                      <span class="title">Created ticket</span>
+                      <p class="grey-text">Ticket assigned to dev team<br>
+                      </p>
+                      
+                    </li>
+                    <li class="collection-item avatar">
+                      <i class="material-icons circle purple">insert_chart</i>
+                      <span class="title">Title</span>
+                      <p class="grey-text">First Line <br>
+                        
+                      </p>
+                      
+                    </li>
+                    
+
+                  </ul>
+
+              </div>
+
+          </div>
+
+          <div class="col s12 m6 l4">
+            <div class="card " id="dashboardcard7"  data-aos="zoom-in-up">
+                <div class="card-title">
+                    <span><h5>POSTS</h5></span>
+                </div>
+                
+                    <ul class="collection">
+                        <li class="collection-item">
+                            <div class="input-field col s12">
+                                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                <label for="textarea1">Post something here</label>
+                            </div>
+                        </li>
+                    </ul>
+                
+               
+                    <a href="#" class="btn right">POST</a>
+               
+            
+            </div>
+          </div>
+
+
+          <div class="col s12 m6 l5">
+              <div class="card" id="dashboardcard2"  data-aos="zoom-in-left">
+                  <div class="card-title"><span><h5>Scratchpad Checklist <ul class="right"><a href="#!" class="btn-flat grey lighten-2 black-text circle">3 Archived</a></ul></h5></span></div>
+                  <div class="card-body">
+
+                      <div class="">
+                            <p><br></p>
+                            <input type="checkbox" id="test5" />
+                            <label for="test5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ipsum est quae!</label>
+                            <p><br></p>
+                      </div>
+                      <div class="">
+                        
+                        <input type="checkbox" id="test4" />
+                        <label for="test4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ipsum est quae!</label>
+                        <p><br></p>
+                       </div>
+                       <div >
+                        
+                        <input type="checkbox" id="test6" />
+                        <label for="test6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ipsum est quae!</label>
+                    
+                       </div>
+                  
+                  
+                      
+                  </div>
+
+                  <div>
+                      <div class="row">
+                        <div class="input-field col s10">
+                          <input id="email" type="text" >
+                          <label for="email" >Type your work here</label>
+                        </div>
+                        <div class="col s2"><a href="#!" class="btn button">ADD</a></div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!--fourth row-->
+
+      <div class="row">
+        <div class="col s12 l4">
+          <div class="card" id="dashboardcard2" data-aos="fade-right">
+								<h5 class="card-title">CHAT</h5>							
+							<div class="body">
+								<div >
+									<div class="rad-list-group">
+                    <ul class="collection">
+                      <li class="collection-item avatar">
+                        <span class="rad-list-icon pull-left"><img class="responsive-img circle left" src="https://lh4.googleusercontent.com/-GXmmnYTuWkg/AAAAAAAAAAI/AAAAAAAAAAA/oK6DEDS7grM/w56-h56/photo.jpg" alt="me" /></span>
+                        <div >
+                          <span class="">Me</span>
+                          <span class=" right"><i class="fa fa-clock-o"></i> 11:20 pm</span>
+                          <div class=" right-align">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales <br></div>
+                        </div>
+                      </li>
+                      <li class="collection-item avatar right">
+                        
+                          <span class="rad-list-icon pull-right "><img class="responsive-img circle right" src="http://www.gravatar.com/avatar/9099c2946891970eb4739e6455400913.png" alt="sathish"/></span>
+                          <div >
+                            <span class="">Sathish</span>
+                            <span class=" right"><i class="fa fa-clock-o"></i> 11:30 pm</span>
+                            <div class=" left-align">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br></div>
+                          </div>
+                       
+                      </li>
+                    </ul>
+                    
+										
+										
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col s9">
+									<input type="text"  placeholder="Type a message" class="form-control" />
+                </div>
+                <div class="col s3">
+                  <a href="#" class="btn">SEND</a>
+                </div>
+							</div>
+						
+          </div>
+        </div>
+
+
+        <div class="col s12 l4 ">
+            <div class="card" id="dashboardcard4"  data-aos="fade-right">
+                <div class="card-title center"><h5><i class="fas fa-graduation-cap"></i>EDUCATION CREDENTIALS</h5></div>
+                <ul class="collection" id="scrollbar">
+                  <li class="collection-item avatar">
+                    <img src="img/girl-919048_1920.jpg" alt="" class="circle">
+                    <span class="title">Title</span>
+                    <p class="grey-text">First Line 
+                    </p>
+                    <a href="#!" class="secondary-content"><i class="fas fa-trash-alt"></i></a>
+                  </li>
+                  <li class="collection-item avatar">
+                    <i class="material-icons circle">folder</i>
+                    <span class="title">Title</span>
+                    <p class="grey-text">First Line 
+                    </p>
+                    <a href="#!" class="secondary-content"><i class="fas fa-trash-alt"></i></a>
+                  </li>
+                  <li class="collection-item avatar">
+                    <i class="material-icons circle green">insert_chart</i>
+                    <span class="title">Title</span>
+                    <p class="grey-text">First Line 
+                    </p>
+                    <a href="#!" class="secondary-content"><i class="fas fa-trash-alt"></i></a>
+                  </li>
+                  <li class="collection-item avatar">
+                    <i class="material-icons circle red">play_arrow</i>
+                    <span class="title">Title</span>
+                    <p class="grey-text">First Line 
+                    </p>
+                    <a href="#!" class="secondary-content"><i class="fas fa-trash-alt"></i></a>
+                  </li>
+                </ul>
+              
+            </div>
+        </div>
+
+        <div class="col s12 l4 ">
+          <div class="card" id="dashboardcard5"  data-aos="fade-left">
+              <div class="card-title center"><h5><i class="fas fa-graduation-cap"></i>EXPERIENCE CREDENTIALS</h5></div>
+              <ul class="collection" id="scrollbar">
+                <li class="collection-item avatar">
+                  <img src="img/girl-919048_1920.jpg" alt="" class="circle">
+                  <span class="title">Title</span>
+                  <p class="grey-text">First Line
+                  </p>
+                  <a href="#!" class="secondary-content"><i class="fas fa-trash-alt"></i></a>
+                </li>
+                <li class="collection-item avatar">
+                  <i class="material-icons circle">folder</i>
+                  <span class="title">Title</span>
+                  <p class="grey-text">First Line
+                  </p>
+                  <a href="#!" class="secondary-content"><i class="fas fa-trash-alt"></i></a>
+                </li>
+                <li class="collection-item avatar">
+                  <i class="material-icons circle green">insert_chart</i>
+                  <span class="title">Title</span>
+                  <p class="grey-text">First Line
+                  </p>
+                  <a href="#!" class="secondary-content"><i class="fas fa-trash-alt"></i></a>
+                </li>
+                <li class="collection-item avatar">
+                  <i class="material-icons circle red">play_arrow</i>
+                  <span class="title">Title</span>
+                  <p class="grey-text">First Line
+                  </p>
+                  <a href="#!" class="secondary-content"><i class="fas fa-trash-alt"></i></a>
+                </li>
+              </ul>
+            
+          </div>
+      </div>
+    </div>
+
+      
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <!--linking js file-->
+    <script src="js/script.js"></script>
+    <!-- linking aos js file-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    
+    <script>
+      $(document).ready(function () {
+          //init sidenav
+        $('.button-collapse').sideNav();
+
+        //Init AOS
+        AOS.init({
+          duration:1200,  
+        });
+        //Init collapsible
+        $('.collapsible').collapsible();
+
+    });
+    </script>
+    
+  </body>
+</html>
+
