@@ -454,8 +454,11 @@ pre {
 
 /* DashboardPage */
 #body2{
-  background-color: lightblue;
-  background-color: #d3d3d3!important;
+ background-color: white;
+}
+.yellow_card{
+  background-color: #fffc00!important;
+  
 }
 #dashboardcard1{
   padding-left: 2rem;
@@ -463,13 +466,16 @@ pre {
   border-radius: 5px;
   padding-bottom: 0.5rem;
   padding-right: 2rem;
+  
 }
 #dashboardcard2{
   padding-left: 2rem;
   padding-top: 1rem;
   border-radius: 5px;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1rem;
   padding-right: 2rem;
+  
+  
 }
 #dashboardcard3{
   padding-left: 2rem;
@@ -477,6 +483,7 @@ pre {
   border-radius: 5px;
   padding-bottom: 0.5rem;
   padding-right: 2rem;
+  
 }
 #dashboardcard4{
   padding-left: 2rem;
@@ -484,6 +491,7 @@ pre {
   border-radius: 5px;
   padding-bottom: 0.5rem;
   padding-right: 2rem;
+  
 }
 #dashboardcard5{
   padding-left: 2rem;
@@ -491,13 +499,15 @@ pre {
   border-radius: 5px;
   padding-bottom: 0.5rem;
   padding-right: 2rem;
+  
 }
 #dashboardcard6{
   padding-left: 2rem;
-  padding-top: 0.5rem;
+  padding-top: 1rem;
   border-radius: 5px;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1rem;
   padding-right: 2rem;
+
   
 }
 #dashboardcard7{
@@ -508,6 +518,7 @@ pre {
     padding-bottom: 0.5rem;
     padding-right: 2rem;
     height: 307px;
+    
   
 }
 
@@ -533,154 +544,149 @@ pre {
 
 /* educationPage */
 #body3{
-  background: url(../img/people-2561053_1920.jpg);
+  overflow: auto;
+ 
+}
+.edu_img{
+  background-image: url('../img/manipulation-smartphone-2507499_1920.jpg');
+  min-height: 100px;
+  padding-left: 0!important;
+  height: 93vh;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
+  left: 0;
+  
+  
 }
-.education_page{
-  background-color: black;
-  opacity: .8  ;
-  border-radius: 5px;
-  max-width: 800px;
-  margin-left: 50px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-top: 40px;
-  margin-left: 200px;
-}
-.input-field{
-  white-space: nowrap;
+/*profile page*/
+.profile_col2{
+  height: 92vh;
+  overflow-y: scroll;
 }
 
 /* developerPage */
-#body4{
-  background: url(../img/summerfield-336672.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.developer_middle{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  border-radius: 20px;
-}
-.developer_card{
-  cursor: pointer;
-  width: 100px;
-  height: 300px;
-  border-radius: 20px!important;
-  min-width: 100px;
-  
-}
-.developer_back,.developer_front{
-  width: 240px;
-  height: 100%;
-  backface-visibility: hidden;
-  position: absolute;
-  transition: transform .6s linear;
-  border-radius: 20px;
-  min-width: 100px;
- 
-}
-.developer_front img{
-  
-  width: 240px;
-  border-radius: 20px;
-  opacity: 1!important;
-  margin-right: 13rem!important;
-  height: 100%;
-}
-.developer_back{
-  background: #f1f1f1;
-  transform: perspective(600px) rotateY(180deg);
-  border-radius: 20px;
-  margin-right: 13rem!important;
 
-}
-.developer_front{
-  transform: perspective(600px) rotateY(0deg);
-  border-radius: 20px;
-}
-.developer_back_content{
-  color: #2c3e50;
-  text-align: center;
-  width: 100%;
-}
-.developer_sm{
-  margin: 20px 0;
-}
-.developer_sm a{
-  display: inline-flex;
-
-  justify-content: center;
-  align-items: center;
-  color: #2c3e50;
-  font-size: 18px;
-  transition: 0.4s;
-
-
-}
-.developer_sm a:hover{
-  background: #2c3e50;
-  color: #f1f1f1;
-}
 .developer_img{
-  /* width: 340px;
-  height: 480px;*/
-  border-radius: 20px;
-   
+  position: absolute;
+  margin-top:0!important;
+  background-image: url(../img/water-1330252.jpg);
+  width: 100%!important;
+  background-size: cover!important;
+  background-repeat: no-repeat;
+  height: 400px!important;
   
 }
+.dev_heading{
 
-.developer_card:hover > .developer_front{
-  transform: perspective(600px) rotateY(-180deg);
+ font-weight: 700;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 }
-.developer_card:hover > .developer_back{
-  transform: perspective(600px) rotateY(0deg);
+.dev_cards{
+  margin-top: 350px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.developer_container{
-  padding-top: 30px;
-  padding-bottom: 5px;
-  padding-left: 30px;
-  padding-right: 30px;
-  opacity: 1;
-  border-radius: 20px;
-  justify-content: center;
- 
+#dev_card_img{
+  height: 90px;
+  position: relative;
+  top: -45px;
+  left: 40%;
 }
-.developer_container_one{
-  background-color: black;
-  opacity: 0.8;
-  justify-content: center;
-  border-radius: 10px;
-  padding-top: 0.5rem;
-  margin-top: 2rem!important;
+.developer_cards{
+  border-radius: 10px!important;
+  padding-bottom: 10px!important;
 }
-
-
-
-
+.dev-card-content{
+  position: relative;
+  padding-bottom: 90px!important;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
 /*my profile*/
+#mypro_body{
+  background-color: #c5cae9;
+}
 .mypro_img{
-  margin-top: 50px;
+  margin-top: 12px;
   margin-right: 70px;
   border-radius: 20px!important ;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  padding: 5px;
+ 
 }
-#myprofile_seccol{
-  margin-top: 30px;
+#my_pro_img{
+  border-radius: 20px;
 }
-.tabs .indicator{
-  background-color: #61c3fa!important;
+.mypro_col1{
   
 }
-.tabs .tab a{
-  color: #61c3fa!important;
+
+#myprofile_seccol{
+  margin-top: 0px;
+}
+.mypro_education{
+  background-color:#5c6bc0!important;
+  border-radius: 10px!important;
+  height: 300px;
+}
+.mypro_experience{
+  background-color:#5c6bc0!important;
+  border-radius: 10px!important;
+}
+.my_pro_edu{
+  padding-top: 10px;
+
+}
+.edu-card-content{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.mypro_gitcard{
+  margin: 10px!important;
+  border-style: solid;
+  border-width: thin;
+  
+}
+.mypro_ul {
+  position: relative;
+  margin: 10%!important;
+  padding-right: 10px;
+  
+}
+.mypro_git_card{
+  padding-bottom: 3%   ;
+  background-color: #5c6bc0!important ;
+  border-radius: 20px!important;
+  
+  
 }
 
+.git_card{
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  margin-right : 3% ;
+  margin-left: 3%;
+  overflow-y : scroll;
+  height : 300px;
+  
+ 
+  border-radius: 10px;
+  
+}
 
+.git_head{
+  padding: 10px;
+}
+.mypro_ul_li{
+  margin: 5%;
+  font-size: small;
+  width: 80px;
+}
 /* postPage */
 #post_img{
   margin-top: 1px!important;
