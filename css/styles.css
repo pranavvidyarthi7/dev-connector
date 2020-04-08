@@ -698,8 +698,8 @@ pre {
 
 #post_person{
   position: relative;
-  top: -80px;
-  left: 50px;
+  top: -5rem;
+  left: 6%;
   padding: 0px!important;
   border-color: white;
   border-width: thick!important;
@@ -708,11 +708,15 @@ pre {
 }
 .post_per_name{
   position: relative;
-  left: 220px;
-  top: -160px;
+  left: 14.8rem;
+  top: -11.5rem;
   padding: 0!important;  
 }
 
+.new-post{
+  position: relative;
+  top: -6rem;
+}
 
 .post_text{
   position: relative;;
@@ -724,10 +728,10 @@ pre {
 #textarea_post{
   border-color: black;
   border-style: solid;
-  height: 100px;
+  height: auto;
   padding-bottom: 5px;
   background-color: whitesmoke;
-  width: 140%;
+  width: 100%;
 }
 
 .post_textarea{
@@ -787,14 +791,20 @@ pre {
 #post_ellipsis{
   padding-top:1rem;
 }
+#reaction-buttons div.right{
+  padding-left: 0;
+}
+#reaction-buttons div.left {
+  padding-right: 0;
+}
+#reaction-buttons div a.btn{
+  padding: 0 0.5rem !important;
+  margin: 0 .1rem;
+}
 #post_4buttons{
-
+padding: 0 0.5rem;
 border-style: solid; 
 border-width: 0.1rem;
-}
-
-#post_share_btn{
-  padding-top:1rem;
 }
 
 #post_leave_cmnts_avatar{
