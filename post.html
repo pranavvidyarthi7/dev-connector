@@ -70,7 +70,7 @@
                   <img src="img/person1.jpg" class="avatar circle " id="post_person" >
               
                     <div class="post_per_name">
-                        <span><h5 style="font-weight: 600; padding: 0!important;" >John Doe</h5></span>
+                        <span><h5  class="post_name" >John Doe</h5></span>
                         <span class="grey-text">Product Designer</span>
                     </div>
                 
@@ -79,7 +79,7 @@
                 <div class="post_textarea">
                     
                         <div class="col auto">
-                            <span><h5 style="font-weight: 600;">Post Something new..</h5></span>                         
+                            <span><h5  id="post_textarea_head">Post Something new..</h5></span>                         
                             <textarea id="textarea_post" class="materialize-textarea "></textarea>
                             <a href="#" class="btn black white-text ">POST</a>
                         </div>
@@ -93,14 +93,14 @@
                     <div class="card-body">
                         <div class="row center">
                             <div class="col auto">
-                                <a href="#" class="avatar" ><img src="img/person3.jpg" class="avatar circle" style="height: 70px; margin-top: 0.7rem;" ></a>
+                                <a href="#" class="avatar" ><img src="img/person3.jpg" class="avatar circle" id="post_avatar1" ></a>
                             </div>
                             <div class="col auto">
                                 <span><h5>Dianna Smiley</h5></span>
                                 <p class="grey-text left"> <i class="far fa-clock"></i>4hrs ago</p>
                             </div>
                             <div class="col auto right">
-                                <div class="center" style="padding-top:1rem;">
+                                <div class="center" id="post_ellipsis">
                                     <a href="#"><i class="fas fa-ellipsis-v"></i></a>
                                 </div>
                             </div>
@@ -112,10 +112,10 @@
                             <div class="col s8" id="post_1rem">
                                 <a href="#" class="btn yellow black-text "><i class="far fa-smile"></i> <strong>1</strong></a>
                                 <a href="#" class="btn yellow black-text "><i class="far fa-thumbs-up"></i> <strong>12</strong></a>
-                                <a href="#" class="btn white black-text" style="border-style: solid; border-width: 0.1rem;">Add reaction</a>
+                                <a href="#" class="btn white black-text" id="post_4buttons">Add reaction</a>
                             </div>
-                            <div class="col s4 right" style="padding-top:1rem;">
-                                <a href="#" class="btn white black-text" style="border-style: solid; border-width: 0.1rem;">Share</a>
+                            <div class="col s4 right" id="post_share_btn">
+                                <a href="#" class="btn white black-text" id="post_4buttons">Share</a>
                             </div>
                         </div>
                         <div class="row" id="post_1rem_margin">
@@ -139,7 +139,7 @@
                         <div class="divider" id="post_1rem_margin"></div>
                         <div class="row">
                             <div class="col s1">
-                                <img src="img/person1.jpg" class="avatar circle" style="height:70px" >
+                                <img src="img/person1.jpg" class="avatar circle" id="post_leave_cmnts_avatar" >
                             </div>
                             <div class="col s8">
                                 <div class=" input-field "><input type="text" placeholder="Leave comment..."></div>                              

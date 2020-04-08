@@ -755,7 +755,7 @@ pre {
 }
 
 #post_1rem_margin{
-  margin 1rem;
+  margin :1rem;
 }
 
 #post_send{
@@ -768,6 +768,35 @@ pre {
 
 #post_comments{
  padding: 1.5rem!important;
- margin-right: 0.5rem;
- margin-left: 0.5rem;
+}
+.post_name{
+  font-weight: 600; 
+  padding: 0!important;
+}
+
+#post_textarea_head{
+  
+  font-weight: 600;
+}
+
+#post_avatar1{
+  height: 70px; 
+  margin-top: 0.7rem;
+}
+
+#post_ellipsis{
+  padding-top:1rem;
+}
+#post_4buttons{
+
+border-style: solid; 
+border-width: 0.1rem;
+}
+
+#post_share_btn{
+  padding-top:1rem;
+}
+
+#post_leave_cmnts_avatar{
+  height:70px;
 }
